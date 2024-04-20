@@ -9,7 +9,7 @@ const jwt = require("jsonwebtoken");
 const jwtAuth = require("./middleware/jwtAuth");
 const middleWare = require("./middleware/jwtAuth");
 
-const port = 4444;
+const port = 3333;
 
 app.use(express.json());
 
