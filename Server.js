@@ -2,12 +2,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const userDitails = require("./models/UserDitails");
-const videoDitails = require("../server/models/VideoDitails");
+const videoDitails = require("./models/VideoDitails");
 var app = express();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const jwtAuth = require("../server/middleware/jwtAuth");
-const middleWare = require("../server/middleware/jwtAuth");
+const jwtAuth = require("./middleware/jwtAuth");
+const middleWare = require("./middleware/jwtAuth");
 
 const port = 4444;
 
